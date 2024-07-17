@@ -183,4 +183,4 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL  = "accounts.CustomUser"  # new
-CSRF_TRUSTED_ORIGIN = ['http://localhost:8000', 'https://blogapi-django.up.railway.app/']
+CSRF_TRUSTED_ORIGIN = ['http://localhost:8000', 'https://blog-production-4273.up.railway.app/api-authlogin/']
